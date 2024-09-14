@@ -119,6 +119,7 @@ def user_stats(df):
     if 'Gender' in df.columns:
         print(' Gender '.center(60, '-'))
         df.fillna({'Gender': 'Not specified'}, inplace=True)
+        print("the Gender count")
         print(df['Gender'].value_counts())
 
     if 'Birth Year' in df.columns:
