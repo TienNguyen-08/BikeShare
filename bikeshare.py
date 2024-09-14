@@ -35,7 +35,7 @@ def get_filters():
         ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     )
 
-    print('-' * 30)
+    print('-' * 40)
     return city, month, day
 
 def load_data(city, month, day):
@@ -107,7 +107,7 @@ def trip_duration_stats(df):
     print('Most Travel Time '.ljust(30, '.'), most_travel_time)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 60)
+    print('-' * 70)
 
 def user_stats(df):
     print('\nCalculating User Stats...\n')
@@ -128,7 +128,7 @@ def user_stats(df):
         print('Most common Birth Year '.ljust(40, '.'), int(df['Birth Year'].mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-' * 40)
+    print('-' * 50)
 
 def main():
     while True:
