@@ -9,6 +9,7 @@ CITY_DATA = {
 }
 
 # Helper function to get a valid user input from a list of options
+
 def get_user_choice(prompt, options):
     choice = None
     while choice not in options:
