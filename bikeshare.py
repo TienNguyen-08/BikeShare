@@ -18,6 +18,7 @@ def get_user_choice(prompt, options):
             print(f"Invalid input. Please enter one of the following: {', '.join(options)}")
     return choice
 
+# Get filters function to get a data input from user
 def get_filters():
     print("Hello! Let's explore some US bikeshare data!")
 
@@ -120,6 +121,7 @@ def user_stats(df):
     if 'Gender' in df.columns:
         print(' Gender '.center(60, '-'))
         df.fillna({'Gender': 'Not specified'}, inplace=True)
+        print("the Gender count")
         print(df['Gender'].value_counts())
 
     if 'Birth Year' in df.columns:
