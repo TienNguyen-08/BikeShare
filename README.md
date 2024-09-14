@@ -20,7 +20,7 @@ In this project, you will make use of Python to explore data related to bike sha
    - bikeshare.py
 2. The following files are not uploaded to remote repo by using **.gitignore** because the files are too big:
    - chicago.csv
-   - new_york_city.csv
+   - new_york.csv
    - washington.csv
 
 ### Credits
@@ -30,4 +30,3 @@ In this project, you will make use of Python to explore data related to bike sha
 - [Python documentation for controlflow.](https://docs.python.org/3/tutorial/controlflow.html)
 - [python documentation](https://docs.python.org/3/)
 - If I have doubts about the errors occured while running the code I used: www.stackoverflow.com
--
